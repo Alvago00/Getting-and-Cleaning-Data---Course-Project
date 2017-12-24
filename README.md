@@ -16,3 +16,12 @@ The run_analysis.R does the following:
 3. Uses descriptive activity names to name the activities in the data set
 4. Appropriately labels the data set with descriptive activity names.
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+run_analysis.R
+
+1. The code downloads the UCI HAR Dataset data set and unzips the file into the UCI HAR Dataset folder.
+2. Loads the necessary packages.
+3. Loads the train and test data sets and finallly merges the training and test set into one data frame.
+4. Extracts only the measurements on the mean and standard deviation for each measurement.
+5. Names the activities in the data set and replace the descriptive variable names
+6. The mean of activities and subjects are created into a separate tidy data set which is exported as txt file.
